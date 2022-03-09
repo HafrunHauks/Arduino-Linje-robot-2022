@@ -21,7 +21,7 @@ void loop() {
   if (mySerial.available()) {                           //hvis tekst blir detektert på myserial portene
     val = mySerial.read();                              //variabel for tekst leser av myserial
     Serial.print(val);                                  //variabel for tekst printer innholdet i lokalt seriell vindu.
-  }
+  }                                                     // dickhead
 
 if  (Serial.available()) {   
   seriell_tekst = Serial.read();
