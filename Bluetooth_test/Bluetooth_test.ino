@@ -3,7 +3,7 @@
 SoftwareSerial mySerial(11, 10);     //definere port 10 og 9 til serial avlesing RX/TX
 #include <Wire.h>
 
-
+//test
 char val;                           //variabel for tekst
 char seriell_tekst;
 
