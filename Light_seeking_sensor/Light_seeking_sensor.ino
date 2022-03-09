@@ -17,7 +17,7 @@ val_lt = digitalRead(lt);
  if (val_lt == 0)
  {
  digitalWrite(ledpin, HIGH);
- LOOOOOOL
+
 }
 else
 {
