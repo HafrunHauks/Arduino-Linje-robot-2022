@@ -23,3 +23,5 @@ else
   
   }
 }
+
+Vil denne funke?
