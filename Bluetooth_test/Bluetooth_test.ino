@@ -1,6 +1,6 @@
 
 #include <SoftwareSerial.h>         //inkludere bibliotek til serial avlesing for porter som ikke er TX/RX
-SoftwareSerial mySerial(11, 10);     //definere port 10 og 9 til serial avlesing RX/TX
+SoftwareSerial mySerial(10, 8);     //definere port 10 og 9 til serial avlesing RX/TX
 #include <Wire.h>
 
 //test
@@ -21,18 +21,15 @@ void loop() {
   if (mySerial.available()) {                           //hvis tekst blir detektert på myserial portene
     val = mySerial.read();                              //variabel for tekst leser av myserial
     Serial.print(val);                                  //variabel for tekst printer innholdet i lokalt seriell vindu.
-<<<<<<< Updated upstream
+
+
+    if  (Serial.available()) {
+      seriell_tekst = Serial.read();
+      mySerial.write(seriell_tekst);
+    }
+
+
+    //Serial.print (1);
+    //delay(500);
   }
-=======
-  }                                                     
->>>>>>> Stashed changes
-
-if  (Serial.available()) {   
-  seriell_tekst = Serial.read();
-  mySerial.write(seriell_tekst);
-}
-
-
-//Serial.print (1);
-//delay(500);
 }
