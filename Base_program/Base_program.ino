@@ -25,9 +25,11 @@ int Bgo = 2;
 // back
 */
 
+int MotorSpeed = 200;
+int TurningSpeed = 200;
+
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
   pinMode(pinLB, OUTPUT);
   pinMode(pinLF, OUTPUT);
   pinMode(pinRB, OUTPUT);
@@ -37,49 +39,49 @@ void setup() {
 
 void advance(int a) // forward
 {
-  digitalWrite(pinRB, LOW);
-  digitalWrite(pinRF, HIGH);
-  digitalWrite(pinLB, LOW);
-  digitalWrite(pinLF, HIGH);
+  analogWrite(pinRB, 0);
+  analogWrite(pinRF, MotorSpeed);
+  analogWrite(pinLB, 0);
+  analogWrite(pinLF, MotorSpeed);
   delay(a * 15);
 }
 
 
 void turnR(int d) //turn right
 {
-  digitalWrite(pinRB, LOW);
-  digitalWrite(pinRF, HIGH);
-  digitalWrite(pinLB, HIGH);
-  digitalWrite(pinLF, LOW);
+  analogWrite(pinRB, 0);
+  analogWrite(pinRF, TurningSpeed);
+  analogWrite(pinLB, TurningSpeed);
+  analogWrite(pinLF, 0);
   delay(d * 50);
 }
 
 void turnL(int e) //turn left
 {
-  digitalWrite(pinRB, HIGH);
-  digitalWrite(pinRF, LOW);
-  digitalWrite(pinLB, LOW);
-  digitalWrite(pinLF, HIGH);
+  analogWrite(pinRB, TurningSpeed);
+  analogWrite(pinRF, 0);
+  analogWrite(pinLB, 0);
+  analogWrite(pinLF, TurningSpeed);
   delay(e * 50);
 }
 
 
 void stopp(int f) //stop
 {
-  digitalWrite(pinRB, HIGH);
-  digitalWrite(pinRF, HIGH);
-  digitalWrite(pinLB, HIGH);
-  digitalWrite(pinLF, HIGH);
+  analogWrite(pinRB, 0);
+  analogWrite(pinRF, 0);
+  analogWrite(pinLB, 0);
+  analogWrite(pinLF, 0);
   delay(f * 100);
 }
 
 void back(int g) //back
 {
-  digitalWrite(pinRB, HIGH);
-  digitalWrite(pinRF, LOW);
-  digitalWrite(pinLB, HIGH);
-  digitalWrite(pinLF, LOW);
-  delay(g * 300);
+  analogWrite(pinRB, MotorSpeed);
+  analogWrite(pinRF, 0);
+  analogWrite(pinLB, MotorSpeed);
+  analogWrite(pinLF, 0);
+  delay(g * 15);
 }
 
 
@@ -87,18 +89,14 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   advance(50);
-  stopp(20);
+  stopp(10);
   turnR(2);
   stopp(10);
-  /*
-      back(10);
-    delay(1000);
-    turnL(10);
-    delay(1000);
-    stopp(5);
-    delay(1000);
-    advance(5);
-    delay(5000);
-  */
+  back(10);
+  stopp(10);
+  turnL(4);
+  stopp(10);
+  delay(5000);
+
 
 }
