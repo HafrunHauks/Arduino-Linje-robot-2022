@@ -7,5 +7,14 @@ Moduler:
 * Ultralydsensor – Kan brukes til å bilen til f.eks. å unngå hindere.
 * SG90 Servo – Monter ultralydsensoren på en servo for å gi bilen ytterligere hinderavvikende egenskaper.
 
+Utvidelsepakke 
 
-ser du denne på nettsida?
+* linjesporingssensor 			1 stk
+* lydsensor					1 stk
+* lyssensor					2 stk
+* Bluetooth-modul HC-05			1 stk
+* IR-modul					1 stk
+* summer					1 stk
+* SG90-servo				2 stk
+* kabel					1 stk
+
