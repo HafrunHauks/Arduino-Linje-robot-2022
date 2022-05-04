@@ -10,18 +10,7 @@ Artikkelnr: ```87289```
 
 ![image](https://user-images.githubusercontent.com/101246909/166634190-5ee36dd3-a748-4d9e-af4c-7db277f3bbba.png)
 
-
-## Utvidelsepakke 
-Artikkelnr: ```87289```
-
-* linjesporingssensor 			1 stk
-* lydsensor					1 stk
-* lyssensor					2 stk
-* Bluetooth-modul HC-05			1 stk
-* IR-modul					1 stk
-* summer					1 stk
-* SG90-servo				2 stk
-* kabel					1 stk
+## Utstyr 
 
 1. Arduino Sensor Shield
 2. Playknowlogy Uno R3
@@ -39,6 +28,19 @@ Artikkelnr: ```87289```
 14. 20 cm female-female jumper cables (20pk)
 
 ![image](https://user-images.githubusercontent.com/101700939/166636147-e6b7008a-0da3-4474-8530-5c4d69a7365d.png)
+
+
+## Utvidelsepakke 
+Artikkelnr: ```87289```
+
+* linjesporingssensor 			1 stk
+* lydsensor					1 stk
+* lyssensor					2 stk
+* Bluetooth-modul HC-05			1 stk
+* IR-modul					1 stk
+* summer					1 stk
+* SG90-servo				2 stk
+* kabel					1 stk
 
 
 
