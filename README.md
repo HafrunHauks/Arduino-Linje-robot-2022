@@ -23,7 +23,23 @@ Artikkelnr: ```87289```
 * SG90-servo				2 stk
 * kabel					1 stk
 
-![image](https://user-images.githubusercontent.com/101246909/166633964-ff5d448b-2bb5-4f42-9087-66be7b941368.png)
+1. Arduino Sensor Shield
+2. Playknowlogy Uno R3
+3. L298N Motor Drive Board
+4. Ultrasonic Sensor
+5. Rubber Wheels (2pk)
+6. DC Motors (2pk)
+7. Ultrasonic holder
+8. Metal Pivot Wheel
+9. Acrylic board (2pk)
+10. USB kabel
+11. SG90 Servo
+12. Rocker switch
+13. 6*AA battery holder
+14. 20 cm female-female jumper cables (20pk)
+
+![image](https://user-images.githubusercontent.com/101700939/166636147-e6b7008a-0da3-4474-8530-5c4d69a7365d.png)
+
 
 
 ## Gruppemedlemmer:
