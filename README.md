@@ -1,5 +1,5 @@
 # Arduino-Linje-robot-2022
-## Roboten Kevin
+### Roboten Kevin
 
 ![image](https://user-images.githubusercontent.com/101246909/166637149-6b017c9a-1fe6-4fb6-a266-50a605a3af2d.png)
 
@@ -80,26 +80,26 @@ Artikkelnr: ```87289```
 * kabel					1 stk
 
 
-
+##
 ## Gruppemedlemmer:
 
-### ***Master mind***
+***Master mind***
 
 - ```Eikeland Henry```
 
 ![Master Mind](https://user-images.githubusercontent.com/101246909/166647456-7af69723-7f40-4588-8f08-d8e070902624.jpg)
 
 
-
-### ***Designer chef***
+##
+***Designer chef***
 
 - ```Grastveit Endre Vanglo```
 
 ![Designor](https://user-images.githubusercontent.com/101246909/166648430-5bbd6ee1-9eea-4699-918d-4831b26bf498.jpg)
 
 
-
-### ***The Helping Dwarfs***
+##
+***The Helping Dwarfs***
 
 - ```Hansen Tobias Preben```
 
@@ -110,32 +110,32 @@ Artikkelnr: ```87289```
 
 ![Kjetil](https://user-images.githubusercontent.com/101246909/166649245-f0d39152-6bfe-4ff5-9558-78ed566657c1.jpg)
 
-
-### ***Sensor chef***
+##
+***Sensor chef***
 
 - ```Lunde Eirik```
 
 ![Eirik](https://user-images.githubusercontent.com/101246909/166649478-4c260f45-f706-48e4-b74a-d85815b8f46f.jpg)
 
-
-### ***Gandalf***
+## 
+***Gandalf***
 
 - ```Norland Christoffer```
 
 ![Christoffer](https://user-images.githubusercontent.com/101246909/166649503-cf9d0f9d-397c-42b6-a43b-33f980ee07c1.jpg)
 
-
-### ***The Face of Kevin***
+##
+***The Face of Kevin***
 
 - ```Rogstadkjærnet Jørgen Olsson```
 
 ![Jørgen](https://user-images.githubusercontent.com/101246909/166649988-a0c62564-8915-4948-85d0-35ce2175799e.jpg)
 
-
-### ***Chef of documents***
+##
+ ***Chef of documents***
 
 - ```Skurtveit Anders```
 
 ![Anders](https://user-images.githubusercontent.com/101246909/166650016-d1e09b4d-50b7-4a12-8629-2bfa79a859d0.jpg)
 
-
+##
