@@ -5,24 +5,33 @@ int pinLF = 9; // define pin9 as left forward connect with IN2
 int pinRB = 10; // define pin10 as right back connect with IN3
 int pinRF = 11; // define pin11 as right back connect with IN4
 
+int sensor_hoy = 2;
+int sensor_hoyhoy = 3;
+int sensor_ven = 4;
+int sensor_venven = 5;
+
+bool hoy = 0;
+bool hoyhoy = 0;
+bool ven = 0;
+bool venven = 0;
 
 
 /*
-int Fspeedd = 0; // forward distance
-int Rspeedd = 0; // right distance
-int Lspeedd = 0; // left distance
-int directionn = 0; //
+  int Fspeedd = 0; // forward distance
+  int Rspeedd = 0; // right distance
+  int Lspeedd = 0; // left distance
+  int directionn = 0; //
 
-Servo myservo; // new myservo
-int delay_time = 250; // set stable time
-int Fgo = 8;
-int Rgo = 6;
-int Lgo = 4;
-int Bgo = 2;
-// forward
-// turn right
-// turn left
-// back
+  Servo myservo; // new myservo
+  int delay_time = 250; // set stable time
+  int Fgo = 8;
+  int Rgo = 6;
+  int Lgo = 4;
+  int Bgo = 2;
+  // forward
+  // turn right
+  // turn left
+  // back
 */
 
 int MotorSpeed = 200;
@@ -30,10 +39,19 @@ int TurningSpeed = 200;
 
 void setup() {
   // put your setup code here, to run once:
+  Serial.begin(9600);
   pinMode(pinLB, OUTPUT);
   pinMode(pinLF, OUTPUT);
   pinMode(pinRB, OUTPUT);
   pinMode(pinRF, OUTPUT);
+
+  pinMode(sensor_hoy, INPUT);
+  pinMode(sensor_hoyhoy, INPUT);
+  pinMode(sensor_ven, INPUT);
+  pinMode(sensor_venven, INPUT);
+
+
+
 }
 
 
@@ -84,19 +102,51 @@ void back(int g) //back
   delay(g * 15);
 }
 
+void sensor()
+{
+  hoy = digitalRead(sensor_hoy);
+  hoyhoy = digitalRead(sensor_hoyhoy);
+  ven = digitalRead(sensor_ven);
+  venven = digitalRead(sensor_venven);
+}
+
+
 
 void loop() {
   // put your main code here, to run repeatedly:
 
-  advance(50);
-  stopp(10);
-  turnR(2);
-  stopp(10);
-  back(10);
-  stopp(10);
-  turnL(4);
-  stopp(10);
-  delay(5000);
+  sensor();
+
+//Kjøre fram
+    if ((hoy == LOW) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
+  {
+    advance(50);
+  }
+
+//
+    if ((hoy == HIGH) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
+  {
+   turnL(4);
+  }
+
+
+    if ((hoy == HIGH) and (hoyhoy == HIGH) and (ven == LOW) and (venven == LOW))
+  {
+    turnL(6);
+   
+  }
+
+
+    if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == LOW))
+  {
+    turnR(4);
+  }
+
+  
+    if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == HIGH))
+  {
+    turnR(6);
+  }
 
 
 }
