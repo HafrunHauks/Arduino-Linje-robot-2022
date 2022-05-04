@@ -1,9 +1,28 @@
 # Arduino-Linje-robot-2022
+## Roboten Kevin
 
 ![image](https://user-images.githubusercontent.com/101246909/166637149-6b017c9a-1fe6-4fb6-a266-50a605a3af2d.png)
 
+## 2 TEORETISK GRUNNLAG
+## 2.1 
 
-## Moduler:
+### 2.2 3D-Printing
+
+3D-printing er en prosess der man lager tredimensjonale objekter fra en digital fil. Selve
+objektet bli laget ved at en type material blir lagt oppå hverandre lagvis til objektet er ferdig.
+3D-printing gjør det mulig å lage komplekse modeller enkelt og kostnadseffektivt.
+For å 3D-printe et objekt må man først ha en 3D-modell. Denne kan man lage selv i et egnet
+tegneprogram eller laste ned ferdig modell fra internett.
+Når man har en 3D-modell, må denne bearbeides i et slice program. Det dette programmet
+gjør er at den gjør filen klar slik at printeren forstår hva den skal gjør for å generere modellen.
+Når filen er bearbeidet er den klar for printeren. Printeren varmer deretter filamentet og bygge
+platen til nødvendig temperatur. Deretter presser printeren det smeltete filamentet igjennom
+en dyse som legger filamentet lagvis på bygge plata. Når printeren er ferdig, har du en ferdig
+modell. Ser du bilde av hvordan en printer som printer ut
+skriften’3D’ ser ut
+
+## 3 MATERIALER OG METODE
+### 3.1 Moduler:
 Artikkelnr: ```87289```
 * Uno R3 med USB-kabel – Bilens hjerne som er Arduino-kompatibel for å kunne brukes og programmeres uten høyere forkunnskaper.
 * L298N Motordriver – Styrer motorene og kobles til med kabler til Uno R3.
@@ -12,7 +31,7 @@ Artikkelnr: ```87289```
 * SG90 Servo – Monter ultralydsensoren på en servo for å gi bilen ytterligere hinderavvikende egenskaper.
 
 
-## Utstyr 
+### 3.2 Utstyr 
 
 1. Arduino Sensor Shield
 2. Playknowlogy Uno R3
@@ -48,7 +67,7 @@ Artikkelnr: ```87289```
 
 
 
-###### Utvidelsepakke 
+### 3.3 Utvidelsepakke 
 Artikkelnr: ```87289```
 
 * linjesporingssensor 			1 stk
