@@ -20,4 +20,12 @@ Utvidelsepakke
 
 
 Gruppemedlemmer:
+Eikeland Henry
+Grastveit Endre Vanglo
+Hansen Tobias Preben 
+Høyvik Kjetil Ellingsen
+Lunde Eirik
+Norland Christoffer
+Rogstadkjærnet Jørgen Olsson
+Skurtveit Anders
 
