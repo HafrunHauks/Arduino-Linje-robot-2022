@@ -83,27 +83,59 @@ Artikkelnr: ```87289```
 
 ## Gruppemedlemmer:
 
-***Master mind***
+### ***Master mind***
+
 - ```Eikeland Henry```
 
+![Master Mind](https://user-images.githubusercontent.com/101246909/166647456-7af69723-7f40-4588-8f08-d8e070902624.jpg)
 
 
-***Designer chef***
+
+### ***Designer chef***
+
 - ```Grastveit Endre Vanglo```
 
-***The Helping Dwarfs***
+![Designor](https://user-images.githubusercontent.com/101246909/166648430-5bbd6ee1-9eea-4699-918d-4831b26bf498.jpg)
+
+
+
+### ***The Helping Dwarfs***
+
 - ```Hansen Tobias Preben```
+
+![Tobias](https://user-images.githubusercontent.com/101246909/166649206-61241ad0-0df8-4578-90a2-4928305d5ad4.jpg)
+
+
 - ```Høyvik Kjetil Ellingsen```
 
-***Sensor chef***
+![Kjetil](https://user-images.githubusercontent.com/101246909/166649245-f0d39152-6bfe-4ff5-9558-78ed566657c1.jpg)
+
+
+### ***Sensor chef***
+
 - ```Lunde Eirik```
 
-***Gandalf***
+![Eirik](https://user-images.githubusercontent.com/101246909/166649478-4c260f45-f706-48e4-b74a-d85815b8f46f.jpg)
+
+
+### ***Gandalf***
+
 - ```Norland Christoffer```
 
-***The Face of Kevin***
+![Christoffer](https://user-images.githubusercontent.com/101246909/166649503-cf9d0f9d-397c-42b6-a43b-33f980ee07c1.jpg)
+
+
+### ***The Face of Kevin***
+
 - ```Rogstadkjærnet Jørgen Olsson```
 
-***Chef of documents***
+![Jørgen](https://user-images.githubusercontent.com/101246909/166649988-a0c62564-8915-4948-85d0-35ce2175799e.jpg)
+
+
+### ***Chef of documents***
+
 - ```Skurtveit Anders```
+
+![Anders](https://user-images.githubusercontent.com/101246909/166650016-d1e09b4d-50b7-4a12-8629-2bfa79a859d0.jpg)
+
 
