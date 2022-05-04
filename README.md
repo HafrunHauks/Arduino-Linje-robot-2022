@@ -1,5 +1,8 @@
 # Arduino-Linje-robot-2022
 
+![image](https://user-images.githubusercontent.com/101246909/166637149-6b017c9a-1fe6-4fb6-a266-50a605a3af2d.png)
+
+
 ## Moduler:
 Artikkelnr: ```87289```
 * Uno R3 med USB-kabel – Bilens hjerne som er Arduino-kompatibel for å kunne brukes og programmeres uten høyere forkunnskaper.
@@ -8,10 +11,44 @@ Artikkelnr: ```87289```
 * Ultralydsensor – Kan brukes til å bilen til f.eks. å unngå hindere.
 * SG90 Servo – Monter ultralydsensoren på en servo for å gi bilen ytterligere hinderavvikende egenskaper.
 
-![image](https://user-images.githubusercontent.com/101246909/166634190-5ee36dd3-a748-4d9e-af4c-7db277f3bbba.png)
+
+## Utstyr 
+
+1. Arduino Sensor Shield
+2. Playknowlogy Uno R3
+3. L298N Motor Drive Board
+4. Ultrasonic Sensor
+5. Rubber Wheels (2pk)
+6. DC Motors (2pk)
+7. Ultrasonic holder
+8. Metal Pivot Wheel
+9. Acrylic board (2pk)
+10. USB kabel
+11. SG90 Servo
+12. Rocker switch
+13. 6*AA battery holder
+14. 20 cm female-female jumper cables (20pk)
+
+![image](https://user-images.githubusercontent.com/101700939/166636147-e6b7008a-0da3-4474-8530-5c4d69a7365d.png)
 
 
-## Utvidelsepakke 
+* 4x M3 35 mm spacers
+* 12x M3 10 mm spacers
+* 4x M3 30 mm screws
+* 24x M3 10 mm screws
+* 28x M3 8 mm screws
+* 10x M3 6 mm screws
+* 14x nuts
+* Self-tapping-screws
+
+
+![image](https://user-images.githubusercontent.com/101700939/166638799-95cd6e95-5e0e-442a-b726-c7b94336d4bd.png)
+
+
+
+
+
+###### Utvidelsepakke 
 Artikkelnr: ```87289```
 
 * linjesporingssensor 			1 stk
@@ -23,7 +60,6 @@ Artikkelnr: ```87289```
 * SG90-servo				2 stk
 * kabel					1 stk
 
-![image](https://user-images.githubusercontent.com/101246909/166633964-ff5d448b-2bb5-4f42-9087-66be7b941368.png)
 
 
 ## Gruppemedlemmer:
