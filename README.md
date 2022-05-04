@@ -32,7 +32,7 @@ Artikkelnr: ```87289```
 ![image](https://user-images.githubusercontent.com/101700939/166636147-e6b7008a-0da3-4474-8530-5c4d69a7365d.png)
 
 
-## Utvidelsepakke 
+### Utvidelsepakke 
 Artikkelnr: ```87289```
 
 * linjesporingssensor 			1 stk
