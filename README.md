@@ -11,7 +11,6 @@ Artikkelnr: ```87289```
 * Ultralydsensor – Kan brukes til å bilen til f.eks. å unngå hindere.
 * SG90 Servo – Monter ultralydsensoren på en servo for å gi bilen ytterligere hinderavvikende egenskaper.
 
-![image](https://user-images.githubusercontent.com/101246909/166634190-5ee36dd3-a748-4d9e-af4c-7db277f3bbba.png)
 
 ## Utstyr 
 
