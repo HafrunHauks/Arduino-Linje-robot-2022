@@ -10,6 +10,12 @@ int sensor_hoyhoy = 3;
 int sensor_ven = 4;
 int sensor_venven = 5;
 
+int sensor_kollisjon_echo = 7;
+int sensor_kollisjon_trigger = 8;
+int duration =0;
+int distance = 0;
+
+
 bool hoy = 0;
 bool hoyhoy = 0;
 bool ven = 0;
@@ -110,40 +116,60 @@ void sensor()
   venven = digitalRead(sensor_venven);
 }
 
-
+void kollisjon()
+{
+  digitalWrite(sensor_kollisjon_trigger, LOW);
+  delayMicroseconds(2);
+  digitalWrite(sensor_kollisjon_trigger, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(sensor_kollisjon_trigger, LOW);
+  duration = pulseIn(sensor_kollisjon_echo, HIGH);
+  distance = (duration  * 0.0343) / 2;
+  distance = constrain (sensor_kollisjon_echo, 0.0, 60.0);
+  delay(1);
+}
 
 void loop() {
   // put your main code here, to run repeatedly:
 
-  sensor();
 
-//Kjøre fram
-    if ((hoy == LOW) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
+
+  kollisjon();
+
+  sensor();
+  Serial.print(hoy);
+  Serial.print(hoyhoy);
+  Serial.print(ven);
+  Serial.print(venven);
+  Serial.println("");
+
+  //Kjøre fram
+  if ((hoy == LOW) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
   {
     advance(50);
   }
 
-//
-    if ((hoy == HIGH) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
+  //
+  if ((hoy == HIGH) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
   {
-   turnL(4);
+    turnL(4);
   }
 
 
-    if ((hoy == HIGH) and (hoyhoy == HIGH) and (ven == LOW) and (venven == LOW))
+  if ((hoy == HIGH) and (hoyhoy == HIGH) and (ven == LOW) and (venven == LOW))
   {
     turnL(6);
-   
+
   }
 
 
-    if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == LOW))
+  if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == LOW))
   {
     turnR(4);
   }
 
-  
-    if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == HIGH))
+
+  if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == HIGH))
   {
     turnR(6);
   }
