@@ -1,5 +1,5 @@
 # Arduino-Linje-robot-2022
-### Roboten Kevin
+### Hei mitt navn er Kevin!
 
 ![image](https://user-images.githubusercontent.com/101246909/166637149-6b017c9a-1fe6-4fb6-a266-50a605a3af2d.png)
 
