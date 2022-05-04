@@ -32,6 +32,22 @@ Artikkelnr: ```87289```
 ![image](https://user-images.githubusercontent.com/101700939/166636147-e6b7008a-0da3-4474-8530-5c4d69a7365d.png)
 
 
+4x M3 35 mm spacers
+12x M3 10 mm spacers
+4x M3 30 mm screws
+24x M3 10 mm screws
+28x M3 8 mm screws
+10x M3 6 mm screws
+14x nuts
+Self-tapping-screws
+
+
+![image](https://user-images.githubusercontent.com/101700939/166638799-95cd6e95-5e0e-442a-b726-c7b94336d4bd.png)
+
+
+
+
+
 ###### Utvidelsepakke 
 Artikkelnr: ```87289```
 
