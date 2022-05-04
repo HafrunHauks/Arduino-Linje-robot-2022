@@ -83,12 +83,27 @@ Artikkelnr: ```87289```
 
 ## Gruppemedlemmer:
 
-- Eikeland Henry,
-- Grastveit Endre Vanglo,
-- Hansen Tobias Preben, 
-- Høyvik Kjetil Ellingsen,
-- Lunde Eirik,
-- Norland Christoffer,
-- Rogstadkjærnet Jørgen Olsson,
-- Skurtveit Anders,
+***Master mind***
+- ```Eikeland Henry```<img src="(https://user-images.githubusercontent.com/101246909/166645118-07069102-b544-4af6-9fe0-8e5d4935c47e" width="100" height="100">
+
+
+
+***Designer chef***
+- ```Grastveit Endre Vanglo```
+
+***The Helping Dwarfs***
+- ```Hansen Tobias Preben```
+- ```Høyvik Kjetil Ellingsen```
+
+***Sensor chef***
+- ```Lunde Eirik```
+
+***Gandalf***
+- ```Norland Christoffer```
+
+***The Face of Kevin***
+- ```Rogstadkjærnet Jørgen Olsson```
+
+***Chef of documents***
+- ```Skurtveit Anders```
 
