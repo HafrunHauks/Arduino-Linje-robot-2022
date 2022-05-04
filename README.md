@@ -1,5 +1,8 @@
 # Arduino-Linje-robot-2022
 
+![image](https://user-images.githubusercontent.com/101246909/166637149-6b017c9a-1fe6-4fb6-a266-50a605a3af2d.png)
+
+
 ## Moduler:
 Artikkelnr: ```87289```
 * Uno R3 med USB-kabel – Bilens hjerne som er Arduino-kompatibel for å kunne brukes og programmeres uten høyere forkunnskaper.
