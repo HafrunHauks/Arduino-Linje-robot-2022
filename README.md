@@ -18,3 +18,6 @@ Utvidelsepakke
 * SG90-servo				2 stk
 * kabel					1 stk
 
+
+Gruppemedlemmer:
+
