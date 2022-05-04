@@ -12,7 +12,7 @@ int sensor_venven = 5;
 
 int sensor_kollisjon_echo = 7;
 int sensor_kollisjon_trigger = 8;
-int duration =0;
+int duration = 0;
 int distance = 0;
 
 
@@ -134,7 +134,7 @@ void loop() {
 
 
 
-  kollisjon();
+  // kollisjon();
 
   sensor();
   Serial.print(hoy);
@@ -149,26 +149,26 @@ void loop() {
     advance(50);
   }
 
-  //
+  //Svinge venstre
   if ((hoy == HIGH) and (hoyhoy == LOW) and (ven == LOW) and (venven == LOW))
   {
     turnL(4);
   }
 
-
+  //Svinge krapp venstre
   if ((hoy == HIGH) and (hoyhoy == HIGH) and (ven == LOW) and (venven == LOW))
   {
     turnL(6);
 
   }
 
-
+  //Svinge høyre
   if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == LOW))
   {
     turnR(4);
   }
 
-
+  //Svinge krapp høyre
   if ((hoy == LOW) and (hoyhoy == LOW) and (ven == HIGH) and (venven == HIGH))
   {
     turnR(6);
